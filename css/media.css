@@ -1,0 +1,529 @@
+@media only screen and (max-width: 1100px){
+    .main {
+        /* max-width: 70vw; */
+        max-width: 800px;
+        margin: 50px auto;
+    }
+    .tabs label {
+        max-height: 22px;
+        width: 150px; 
+        /* width: auto;  */
+        order: 1;
+        display: block;
+        padding: 10px 0.5rem 10px 25px;
+        margin: 30px -0.8rem 30px 0px;
+        font-size: 12px;
+        line-height: 22px;
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    }
+    .tabs .first-label{
+        width: 150px; 
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+        padding: 10px 0rem 10px 1rem;
+    }
+    .first-label .hed-img-2-1 img {
+        width: 13px;
+        max-height: 13px;
+        top: 46%;
+        left: 30px;
+    }
+    .first-label .hed-img-2-2 img {
+        width: 13px;
+        max-height: 13px;
+        top: 46%;
+        left: 30px;
+    }
+    .hed-img-2-1 img {
+        width: 15px;
+        top: 50%;
+        left: 55px;
+    }
+    .hed-img-2-2 img {
+        width: 15px;
+        top: 50%;
+        left: 55px;
+    }
+    .tabs label span {
+        margin: 0px 3px 0px 5px;
+    }
+    .first-label .hed-img-2-1 img {
+        width: 12px;
+        max-height: 13px;
+        top: 48%;
+        left: 36px;
+    }
+    .first-label .hed-img-2-2 img {
+        width: 12px;
+        max-height: 13px;
+        top: 48%;
+        left: 36px;
+    }
+    .op_select select {
+        max-width: 365px;
+        width: 250px;
+        padding: 10px;
+    }
+    .op_select img {
+        width: 15px;
+        top: 50%;
+        left: 220px;
+    }
+    .next_submit-btn label {
+        max-width: 100px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .main {
+        max-width: 90vw; 
+        /* max-width: 600px; */
+        margin: 50px auto;
+    }
+    .tabs label {
+        max-height: 22px;
+        width: 145px; 
+        padding: 8px 0.4rem 8px 15px;
+        margin: 30px -0.8rem 30px 0px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .tabs .first-label{
+        width: 140px; 
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+        padding: 7px 0.4rem 7px 10px;
+    }
+    
+    .hed-img-2-1 img {
+        width: 13px;
+        top: 50%;
+        left: 45px;
+    }
+    .hed-img-2-2 img {
+        width: 13px;
+        top: 50%;
+        left: 45px;
+    }
+
+    .tab-form {
+        column-gap: 30px;
+        row-gap: 20px;
+        padding: 0px 5px;
+    }
+    .tb-2-budget h2 {
+        font-size: 12px;
+        line-height: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .form-sec h3 {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+    .op_select select {
+        max-width: 280px;
+        width: 200px;
+        padding: 10px;
+    }
+    .op_select img {
+        width: 12px;
+        top: 50%;
+        left: 170px;
+    }
+    .form-sec input {
+        max-width: 180px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .tb-2-budget h2 span a {
+        font-size: 10px;
+    }
+    .next_submit-btn label {
+        max-width: 100px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    .main-img {
+        display: none;
+    }
+    .tabs .tab {
+        margin-left: 0px;
+        margin-top: -30px; 
+        width: 50%;
+        padding: 0rem 0px 1rem 0px;
+    }
+    .robo-checker {
+        max-width: 160px;
+        margin-left: 5px;
+        bottom: 14px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .tab-form {
+        justify-content: space-between;
+        column-gap: 40px;
+        row-gap: 20px;
+        padding: 0px 5px;
+    }
+    .form-sec input {
+        max-width: 250px;
+    }
+    .op_select select {
+        width: 270px;
+    }
+    .op_select img {
+        left: 240px;
+    }
+    .page-indicate {
+        bottom: -60px;
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+     
+    .tabs label {
+        max-height: 22px;
+        width: 130px; 
+        /* width: auto;  */
+        order: 1;
+        display: block;
+        padding: 7px 0.4rem 7px 20px;
+        margin: 30px -0.8rem 30px 0px;
+        font-size: 10px;
+        line-height: 22px;
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    }
+    .tabs .first-label{
+        width: 100px; 
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 0%);
+        padding: 7px 0.4rem 7px 10px;
+    }
+    .first-label .hed-img-2-1 img {
+        width: 10px;
+        max-height: 10px;
+        top: 46%;
+        left: 30px;
+    }
+    .first-label .hed-img-2-2 img {
+        width: 10px;
+        max-height: 10px;
+        top: 46%;
+        left: 30px;
+    }
+    .op_select select {
+        width: 250px;
+        padding: 10px;
+    }
+    .form-sec input {
+        max-width: 230px;
+    }
+    .op_select img {
+        left: 220px;
+    }
+
+    
+    /* .op_select select {
+        max-width: 200px;
+        width: 100%;
+        padding: 10px;
+    } */
+    
+    /* .form-sec input {
+        max-width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+    } */
+    .robo-checker {
+        margin-left: 0px;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .tabs {
+        height: 550px;
+    }
+
+    .main {
+        margin: 50px auto 150px auto;
+    }
+    .next_submit-btn label {
+        max-width: 80px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .title-heading {
+        max-width: 200px;
+        padding: 15px 0px;
+    }
+    .heading {
+        padding: 8px 0px;
+    }
+    .heading h1 {
+        font-size: 24px;
+    }
+    .main {
+        max-width: 95vw;
+        margin: 50px auto;
+    }
+    .tabs .first-label {
+        width: 14vw;
+        max-height: 26px;
+        height: 100vh;
+        clip-path: polygon(87% 0%, 100% 50%, 87% 100%, 0% 100%, 0% 0%);
+        padding: 7px 0.4rem 7px 10px;
+    }
+    .tabs label {
+        max-height: 26px;
+        width: 20vw;
+        /* width: auto; */
+        order: 1;
+        display: block;
+        padding: 7px 0.4rem 7px 15px;
+        margin: 30px -0.8rem 30px 5px;
+        font-size: 10px;
+        line-height: 12px;
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+        text-align: center;
+        
+    }
+    .h-text{
+        margin-left: 4px;
+    }
+    .hed-img-2-1 img {
+        width: 13px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .hed-img-2-2 img {
+        width: 13px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .first-label .hed-img-2-2 img {
+        width: 10px;
+        max-height: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .first-label .hed-img-2-1 img {
+        width: 10px;
+        max-height: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    .tabs label span {
+        margin: 0px 2px 0px 0px;
+    }
+    .form-sec input {
+        max-width: 35vw;
+    }
+    .op_select select {
+        width: 39vw;
+    }
+    .op_select img {
+        left: 34vw;
+    }
+    .tb-2-ab .tb-2-budget {
+        display: block;
+    }
+    .tb-2-budget .applied {
+        margin-left: 0px;
+    }
+    .next_submit-btn label {
+        max-width: 80px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 10px;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 5px;
+    }
+    .next_submit-btn button {
+        margin-top: 30px;
+        margin-right: -10px;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+
+    .tab-last .tb4-text-area textarea {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+
+    .main {
+        max-width: 95vw;
+        margin: 50px auto 0px auto;
+    }
+    .tabs .first-label {
+        max-width: 100px;
+        width: 100px;
+        max-height: 26px;
+        height: 100vh;
+        clip-path: polygon(87% 0%, 100% 50%, 87% 100%, 0% 100%, 0% 0%);
+        padding: 7px 0.4rem 7px 10px;
+    }
+    .tab-form {
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 0px 5px;
+    }
+}
+
+@media only screen and (max-width: 534px){
+     .xyz, .abc, .h-text{
+        display: none;
+    } 
+    .tabs {
+        height: 450px;
+    }
+    .tb-2-ab {
+        margin-top: -30px;
+    }
+    .tabs label {
+        max-height: 20px;
+        max-width: 18vw;;
+        width: 100%;
+        padding: 8px 10px 8px 10px;
+        margin: 15px -0.8rem 15px 5px;
+        font-size: 10px;
+        line-height: 12px;
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    }
+    .tabs .first-label {
+        max-height: 20px;
+        max-width: 18vw;;
+        width: 100%;
+        padding: 8px 10px 8px 10px;
+        margin: 15px -0.8rem 15px 5px;
+        font-size: 10px;
+        line-height: 12px;
+        clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%, 0% 0%);
+    }
+    .half-color-line {
+        top: 70px;
+    }
+    .tabs .tab {
+        margin-left: 0px;
+        margin-top: -100px;
+    }
+    .first-label .hed-img-2-2 img {
+        width: 15px;
+        max-height: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .first-label .hed-img-2-1 img {
+        width: 15px;
+        max-height: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hed-img-2-2 img {
+        width: 15px;
+        max-height: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hed-img-2-1 img {
+        width: 15px;
+        max-height: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .form-sec input {
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .tab-form {
+        column-gap: 10px;
+        row-gap: 20px;
+        padding: 0px 5px;
+    }
+    .form-sec input::placeholder {
+        font-size: 10px;
+    }
+    .op_select select {
+        padding: 5px;
+        font-size: 12px;
+        letter-spacing: -0.2px;
+        border-radius: 3px;
+    }
+    .op_select img {
+        width: 8px;
+        left: 34vw;
+    }
+    .tb-2-budget h2 span {
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .tb-2-budget h2 span a {
+        position: absolute;
+        font-size: 8px;
+        top: 15px;
+        left: 0px;
+    }
+    .select-food h4 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .robo-checker {
+        bottom: 20px;
+    }
+    .robo-checker img {
+        max-width: 40px;
+        margin-left: 20px;
+    }.next_submit-btn {
+        bottom: -110px;
+        right: 40px;
+    }
+    .tab-last{
+        margin-top: 60px;
+    }
+    .next_submit-btn label {
+        max-width: 80px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        padding: 5px 15px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .next_submit-btn button {
+        margin-top: 15px;
+        margin-right: -20px;
+        font-size: 14px;
+        line-height: 20px;
+        border-radius: 5px;
+        padding: 5px 20px;
+    }
+    .page-indicate {
+        bottom: -50px;
+        left: 20px;
+    }
+}
